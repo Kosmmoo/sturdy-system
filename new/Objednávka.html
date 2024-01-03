@@ -3,16 +3,22 @@
 <head>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css " rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <meta charset="UTF-8">
+    <style>
+        body {
+          background-image: url('https://images.pexels.com/photos/1341279/pexels-photo-1341279.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+        }
+        </style>
+        <body style="color: rgb(255, 255, 255); background-color: white;"></body>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/c8ddd39f74.js" crossorigin="anonymous"></script>
     <title>Objednávka</title>
 </head>
 <body>
-<form class="container bg-light p-5">
+<form class="container bg-dark  p-5">
    
     <h1><a href="./vesmír.html"> <i class="fa-solid fa-house"></i></a>Objednávka</h1> 
      <label for="produkt" aria-placeholder="vyber"><strong>Produkt:</strong></label><br>
-      <select name="produkt" id="produkt" aria-placeholder="">
+      <select name="produkt" id="produkt" style="width: 200px;">
        <option value="Výběr z možností"></option>
        <option value="Venuše">Venuše</option>
        <option value="Mars">Mars</option>
@@ -20,16 +26,16 @@
        <option value="Jupiter">Jupiter</option>
       </select> <br>
 
-     <label for="počet"><strong>Počet kusů:</strong></label><br><input type="number" id="počet" placeholder="číslo"><br>
+     <label for="počet"><strong>Počet kusů:</strong></label><br><input type="number" id="počet" placeholder="číslo" style="width: 200px;"><br>
   
     <h1>Doručení</h1>
-     <label for="Jméno a přijmení"><strong>Jméno a přijmení:</strong></label><br><input type="text" id="Jméno a přijmení" placeholder="Jméno a přijmení"><br>
-     <lable for="Město"><strong>Město</strong></lable><br><input type="text" placeholder="Město" id="Město"><br>
-     <lable for="Ulice"><strong>Ulice</strong></lable><br><input type="text" placeholder="Ulice" id="Ulice"><br>
-     <label for="email"><strong>Email</strong></label><br><input type="text" name="email" id="email" placeholder="Email"><br>
-     <label for="Číslo"><strong>Číslo</strong></label><br><input type="text" name="číslo" id="Číslo" placeholder="Telefoní číslo"><br>
+     <label for="Jméno a přijmení"><strong>Jméno a přijmení:</strong></label><br><input type="text" id="Jméno a přijmení" placeholder="Jméno a přijmení" style="width: 200px;"><br>
+     <lable for="Město"><strong>Město</strong></lable><br><input type="text" placeholder="Město" id="Město" style="width: 200px;"><br>
+     <lable for="Ulice"><strong>Ulice</strong></lable><br><input type="text" placeholder="Ulice" id="Ulice" style="width: 200px;"><br>
+     <label for="email"><strong>Email</strong></label><br><input type="text" name="email" id="email" placeholder="Email"style="width: 200px;"><br>
+     <label for="Číslo"><strong>Číslo</strong></label><br><input type="text" name="číslo" id="Číslo" placeholder="Telefoní číslo"style="width: 200px;"><br>
     <label for="message"><strong>Zpráva:</strong></label><br>
-    <textarea name="Zpráva" id="message" placeholder="napiš"></textarea>
+    <textarea name="Zpráva" id="message" style="width: 200px;" placeholder="napiš"></textarea>
      <div class="input-group">
          <input type="reset" value="Zrušit" class="btn btn-danger">
          <input type="submit"value="Odeslat" class="btn btn-success"><br> 
